@@ -1,0 +1,7 @@
+my:
+ greeting: Hello World from config server  - qa enviornment
+ 
+db:
+ connection: connection-string-here-from-config-server-qa-enviornment
+ host: 127.0.0.2
+ port: 1201
