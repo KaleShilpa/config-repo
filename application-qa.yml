@@ -1,5 +1,5 @@
 my:
- greeting: Hello World from config server  - qa enviornment
+ greeting: Hello World from config server  - qa enviornment - updated
  
 db:
  connection: connection-string-here-from-config-server-qa-enviornment
