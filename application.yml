@@ -1,5 +1,5 @@
 my:
- greeting: Hello from config server
+ greeting: Good Evening from config server
  
 db:
  connection: connection-string-here-from-config-server
