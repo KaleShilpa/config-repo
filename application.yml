@@ -8,3 +8,24 @@ db:
 
 api:
  key: cea3b7a0b210db1ea9f3707365849dd8
+
+eureka:
+ client:
+  eureka-server-port: 8761
+ instance:
+  prefer-ip-address: true
+
+spring:
+ config:
+  import: optional:configserver:http://localhost:8888
+ cloud:
+  config:
+   uri: http://localhost:8888
+ profiles:
+  active: default
+
+management:
+ endpoints: 
+  web:
+   exposure:
+    include: refresh
