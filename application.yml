@@ -13,7 +13,7 @@ eureka:
  client:
   eureka-server-port: 8761
  instance:
-  hostname: localhost
+  prefer-ip-address: true
 
 spring:
  profiles:
